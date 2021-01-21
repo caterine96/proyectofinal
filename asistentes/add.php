@@ -32,8 +32,8 @@ if ($save){
     ?>
     <h2 class="text-center mb-2"> Registrar sesion</h2> 
     <form method="POST" enctype="multipart/form-data" >
-
-<div class="row mb-2"> 
+<br>
+<div class="row mb-2" >  
  <div class="col" >
  <input type="text" name="nombre" id="nombre" placeholder="Nombre del asistente" class="form-control" />
 </div>
@@ -43,20 +43,20 @@ if ($save){
 </div>
 
  <div class="row mb-2"> 
- </div class="col" >
+ <div class="col" >
  <input type="number" name="edad" id="edad" placeholder="Edad del asistente" class="form-control"/>
 </div>
-<div class="col"> 
+<div class="col" > 
  <input type="number" name="documento" id="documento" placeholder="Documento del asistente" class="form-control" />
  </div> 
  <div class="row mb-2">
 
- </div class="col">
- <input type="text" name="buscar" id="buscar" placeholder="Buscar el asistente" class="form-control"/>
-</div>
+ 
 
+<div class="col" >
+<br>
 <button class="btn btn-success"> Registrar </button>
-<button class="btn btn-sucesss"> Buscar </button>
+
 
 </form>   
 </div>>   
